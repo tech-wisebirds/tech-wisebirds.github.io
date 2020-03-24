@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tech-wisebirds.github.io/"/>
-  <updated>2020-03-24T10:00:08.834Z</updated>
+  <updated>2020-03-24T10:03:06.021Z</updated>
   <id>https://tech-wisebirds.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://tech-wisebirds.github.io/2020/03/24/new-posting/"/>
     <id>https://tech-wisebirds.github.io/2020/03/24/new-posting/</id>
     <published>2020-03-24T09:41:00.000Z</published>
-    <updated>2020-03-24T10:00:08.834Z</updated>
+    <updated>2020-03-24T10:03:06.021Z</updated>
     
-    <content type="html"><![CDATA[<p>일반적으로 블로그에서 포스팅하는 것처럼 에디터로 포스팅을 만들지는 않고,<br>파일을 생성, Markdown 문서로 포스트를 작성하는 형식이다.<br>*Markdown 문서는 공식 페이지를 참고.(<a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">https://guides.github.com/features/mastering-markdown/</a>)</p><h4 id="파일-생성"><a href="#파일-생성" class="headerlink" title="파일 생성"></a>파일 생성</h4><p>파일 생성은 두 가지 방법이 있다. 하나는 직접 디렉토리에 파일 생성, 다른 하나는 command를 이용하여 생성하는 방법이 있다.<br>아래는 후자를 이용해 생성하는 방법이다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> new post <span class="variable">$&#123;file name&#125;</span></span><br></pre></td></tr></table></figure><h4 id="자주-사용-예제"><a href="#자주-사용-예제" class="headerlink" title="자주 사용 예제"></a>자주 사용 예제</h4><p>앞으로 작성할 포스팅에 새로운 문법이 쓰이면 예제를 함께 기재할 예정이다.</p><ol><li>header<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># &lt;h1&gt;</span><br><span class="line">## &lt;h2&gt;</span><br><span class="line">### &lt;h3&gt;</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li><li>order<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 가</span><br><span class="line">    1. 가-1</span><br><span class="line">    1. 가-2</span><br><span class="line">1. 나</span><br><span class="line">1. 다</span><br></pre></td></tr></table></figure></li><li>image<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](&#x2F;images&#x2F;logo.png)</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>일반적으로 블로그에서 포스팅하는 것처럼 에디터로 포스팅을 만들지는 않고,<br>파일을 생성, Markdown 문서로 포스트를 작성하는 형식이다.<br>*Markdown 문서는 공식 페이지를 참고.(<a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">https://guides.github.com/features/mastering-markdown/</a>)</p><h4 id="파일-생성"><a href="#파일-생성" class="headerlink" title="파일 생성"></a>파일 생성</h4><p>파일 생성은 두 가지 방법이 있다. 하나는 직접 디렉토리에 파일 생성, 다른 하나는 command를 이용하여 생성하는 방법이 있다.<br>아래는 후자를 이용해 생성하는 방법이다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> new post <span class="variable">$&#123;file name&#125;</span></span><br></pre></td></tr></table></figure><h4 id="자주-사용-예제"><a href="#자주-사용-예제" class="headerlink" title="자주 사용 예제"></a>자주 사용 예제</h4><p>앞으로 작성할 포스팅에 새로운 문법이 쓰이면 예제를 함께 기재할 예정이다.</p><ol><li>header<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># &lt;h1&gt;</span><br><span class="line">## &lt;h2&gt;</span><br><span class="line">### &lt;h3&gt;</span><br><span class="line">...</span><br></pre></td></tr></table></figure></li><li>order<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 가</span><br><span class="line">    1. 가-1</span><br><span class="line">    1. 가-2</span><br><span class="line">1. 나</span><br><span class="line">1. 다</span><br></pre></td></tr></table></figure></li><li>image<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](&#x2F;images&#x2F;logo.png)</span><br></pre></td></tr></table></figure></li><li>link<br>링크만 기재해도 됨<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[Text](&#x2F;&#x2F;tech-wisebirds.github.io)</span><br><span class="line">&#x2F;&#x2F;tech-wisebirds.github.io</span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
     <summary type="html">
     
@@ -53,28 +53,6 @@
       
         &lt;p&gt;30분~1시간 정도면 생성할 수 있는 블로그 만들기!&lt;br&gt;여러가지 비교해서 테마와 여러가지 플러그인 사용법이 간단하다.&lt;br&gt;테마나 플러그인에 따라 약간의 수정이 필요한 경우도 있다.&lt;/p&gt;
 &lt;h4 id=&quot;사전-준비&quot;&gt;&lt;a href=&quot;#사전-준
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://tech-wisebirds.github.io/2020/03/23/hello-world/"/>
-    <id>https://tech-wisebirds.github.io/2020/03/23/hello-world/</id>
-    <published>2020-03-22T15:33:17.401Z</published>
-    <updated>2020-03-24T09:26:25.744Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
     
     </summary>
