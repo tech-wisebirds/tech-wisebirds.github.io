@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tech-wisebirds.github.io/"/>
-  <updated>2020-03-25T06:33:44.389Z</updated>
+  <updated>2020-03-25T08:28:08.543Z</updated>
   <id>https://tech-wisebirds.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Theme 적용</title>
+    <link href="https://tech-wisebirds.github.io/2020/03/25/changeTheme/"/>
+    <id>https://tech-wisebirds.github.io/2020/03/25/changeTheme/</id>
+    <published>2020-03-25T08:14:00.000Z</published>
+    <updated>2020-03-25T08:28:08.543Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo는 여러가지 테마를 제공하고 쉽게 바꿀 수 있다.<br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a> 에서 원하는 테마를 골라서 적용해보자<br>적용하고 원하는 부분은 custom하면 된다.</p><h4 id="Theme-git-clone"><a href="#Theme-git-clone" class="headerlink" title="Theme git clone"></a>Theme git clone</h4><p>Hexo 설치했던 경로에 보면 themes 폴더가 생성되어 있고, 안에는 기본 테마인 landscape가 있을 것이다.<br>themes 폴더에 테마를 추가하면 쉽게 변경이 가능하다.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="variable">$&#123;user destination&#125;</span></span><br><span class="line">$ git <span class="built_in">clone</span> <span class="variable">$&#123;Theme git link&#125;</span> themes/<span class="variable">$&#123;folder name&#125;</span></span><br></pre></td></tr></table></figure><h4 id="config-yml-Theme-변경"><a href="#config-yml-Theme-변경" class="headerlink" title="_config.yml Theme 변경"></a>_config.yml Theme 변경</h4><p>원하는 테마를 clone했다면 설정만 변경해주면 된다!</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#Themes</span><br><span class="line">    theme: $&#123;folder name&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Hexo는 여러가지 테마를 제공하고 쉽게 바꿀 수 있다.&lt;br&gt;&lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://hexo.io/themes/&lt;/a&gt; 에서 원하는 테마
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>포스팅하기</title>
